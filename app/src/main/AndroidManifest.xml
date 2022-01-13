@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstApp">
-
-        <activity android:name=".HomeActivity"/>
-
+        <activity
+            android:name=".ImagePickerActivity"
+            android:exported="false" />
+        <activity android:name=".HomeActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -21,9 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
     </application>
 
 </manifest>

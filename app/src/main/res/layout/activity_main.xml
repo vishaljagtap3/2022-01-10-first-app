@@ -26,6 +26,7 @@
     <EditText
         android:id="@+id/edtUsername"
         android:hint="Username"
+        android:text="bitcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -33,6 +34,7 @@
         android:id="@+id/edtPassword"
         android:inputType="textPassword"
         android:hint="Password"
+        android:text="bitcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
